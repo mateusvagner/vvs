@@ -82,5 +82,4 @@ public class VehicleTest {
         // Check that the weight limit is not exceeded when no loads are added
         assertTrue(vehicle.checkWeightLimit());
     }
-
 }
