@@ -45,6 +45,15 @@ public class Vehicle {
     }
 
     /**
+     * Get the all vehicle loads
+     *
+     * @return a list of the vehicle loads
+     */
+    public List<Load> getLoads() {
+        return loads;
+    }
+
+    /**
      * Checks if the total weight of the loads in the vehicle is within the
      * maximum weight limit.
      *
