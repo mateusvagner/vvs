@@ -1,6 +1,6 @@
 /**
  * VVS by Rodrigo Prestes Machado
- *
+ * <p>
  * VVS is licensed under a
  * Creative Commons Attribution 4.0 International License.
  * You should have received a copy of the license along with this
@@ -19,12 +19,12 @@ public class Vehicle {
     /**
      * Represents the maximum weight limit of the vehicle.
      */
-    private int maximumWeightLimit;
+    private final int maximumWeightLimit;
 
     /**
      * Represents a vehicle that can transport loads.
      */
-    private List<Load> loads = new ArrayList<>();
+    private final List<Load> loads = new ArrayList<>();
 
     /**
      * Constructs a new Vehicle object with the specified weight limit.
